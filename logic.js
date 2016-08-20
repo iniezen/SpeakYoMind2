@@ -1,4 +1,5 @@
  $(".text_process_button").click(function(){
+    $('#searchInput').val(final_span.textContent);
     var textString = $("#searchInput").val().trim();
     console.log(textString);
 
@@ -297,6 +298,7 @@ function showButtons(style) {
   email_info.style.display = 'none';
 }
  
+
 
 
 
