@@ -1,3 +1,7 @@
+ 
+$('#searchParameters').hide();
+$('#searchInput').hide();
+
  $(".text_process_button").click(function(){
     $('#searchInput').val(final_span.textContent);
     var textString = $("#searchInput").val().trim();
